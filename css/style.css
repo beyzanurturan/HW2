@@ -1,0 +1,50 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.navbar{
+	border-bottom: #DAA520 1px solid;
+}
+.navbar .navbar-brand {
+	color:#FFD700 ;
+	font-size: 25px;
+	font-family: 'Pacifico', cursive;
+}
+.bg-dark{
+	background-color: rgba(0,0,0,1) !important ;
+}
+.nav-link{
+
+	text-transform: uppercase;
+	transition: color .5s ease;
+
+}
+.nav-link:hover{
+	color:#FFD700 !important;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+	color: #FFD700;
+	font-size: 18px;
+}
+
+h1{
+	padding-bottom: 35px;
+}
+
+#headerSection{
+	background: url('../images/ist.jpg') no-repeat center fixed;
+	background-size: cover;
+	height: 100vh;
+}
+/*
+#headerSection .overlay{
+	background-color: rgba(0,0,0,.7);
+
+	}*/
+	#headerSection .row {
+		height: 100vh;
+	}
+	#headerSection span {
+		color:black;
+	}
+
